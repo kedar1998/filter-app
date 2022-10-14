@@ -21,7 +21,7 @@ mainBtn.addEventListener("click", function(e){
     e.target.classList.add("bg-orange-400");
 
     allCards.forEach((ele) =>{
-        ele.classList.remove("hidden")
+        ele.classList.remove("hide")
     });
 
 })
@@ -33,11 +33,11 @@ topBtn.addEventListener("click", function(e){
     e.target.classList.add("bg-orange-400");
 
     allCards.forEach((ele) =>{
-        ele.classList.add("hidden")
+        ele.classList.add("hide")
     });
 
     allTopWear.forEach((ele) =>{
-        ele.classList.remove("hidden");
+        ele.classList.remove("hide");
     })    
 
 });
@@ -50,11 +50,11 @@ bottomBtn.addEventListener("click", function(e){
     e.target.classList.add("bg-orange-400");
 
     allCards.forEach((ele) =>{
-        ele.classList.add("hidden")
+        ele.classList.add("hide")
     });
 
     allBottomWear.forEach((ele) =>{
-        ele.classList.remove("hidden");
+        ele.classList.remove("hide");
     })    
 
 })
@@ -67,11 +67,11 @@ shoesBtn.addEventListener("click", function(e){
     e.target.classList.add("bg-orange-400");
 
     allCards.forEach((ele) =>{
-        ele.classList.add("hidden")
+        ele.classList.add("hide")
     });
 
     allShoes.forEach((ele) =>{
-        ele.classList.remove("hidden");
+        ele.classList.remove("hide");
     })    
 
 })
@@ -84,11 +84,11 @@ accBtn.addEventListener("click", function(e){
     e.target.classList.add("bg-orange-400");
 
     allCards.forEach((ele) =>{
-        ele.classList.add("hidden")
+        ele.classList.add("hide")
     });
 
     allAcc.forEach((ele) =>{
-        ele.classList.remove("hidden");
+        ele.classList.remove("hide");
     })    
 
 })
